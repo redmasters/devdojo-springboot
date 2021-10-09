@@ -12,7 +12,6 @@ import java.util.List;
 public class AnimeController {
     @GetMapping(path = "list")
     public List<Anime> list() {
-        return List.of(new Anime("DBZ"), new Anime("SAO"));
-
+        return List.of(new Anime("Kumodesu Deku Ga Nani Ka?"), new Anime("The Rising of Shield Hero"));
     }
 }

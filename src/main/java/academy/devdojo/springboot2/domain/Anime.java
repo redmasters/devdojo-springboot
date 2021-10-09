@@ -7,7 +7,8 @@ public class Anime {
         this.name = name;
     }
 
-    public Anime() {}
+    public Anime() {
+    }
 
     public String getName() {
         return name;
