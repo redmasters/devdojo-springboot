@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("anime")
 public class AnimeController {
-    @GetMapping("list")
+    @GetMapping(path = "list")
     public List<Anime> list() {
         return List.of(new Anime("Kumodesu Deku Ga Nani Ka?"), new Anime("The Rising of Shield Hero"));
     }
