@@ -15,7 +15,6 @@ public class SpringClient {
         Anime object = new RestTemplate().getForObject("http://localhost:8082/animes/{id}", Anime.class,  2);
         log.info(object);
 
-
     }
 
 }
